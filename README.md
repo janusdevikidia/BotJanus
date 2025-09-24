@@ -1,2 +1,6 @@
-# BotJanus
-BotJanus on en.vikidia.org
+Nom : BotJanus
+Dresseur : Janus
+Wikis : fr.vikidia.org
+        en.vikidia.org
+
+    
