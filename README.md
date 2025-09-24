@@ -1,6 +1,8 @@
 Nom : BotJanus
+
 Dresseur : Janus
-Wikis : fr.vikidia.org
+
+Wikis : fr.vikidia.org ;
         en.vikidia.org
 
     
