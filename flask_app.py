@@ -1,3 +1,4 @@
+# Permet de contrôler BotJanus à distance d'une console grâce à un site Flask
 from flask import Flask, render_template_string, redirect, url_for, request
 import subprocess
 import os
@@ -15,6 +16,7 @@ status = {
 }
 
 # --- scripts et chemins ---
+# Scripts personnels à retrouver dans la repo GitHub mais il faudra changer pour vous le chemin d'accès !
 SCRIPTS = {
     "Uncategorized": "/home/Janus/bots/uncategorized.py",
     "Orphan": "/home/Janus/bots/orphan.py",
