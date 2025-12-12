@@ -27,9 +27,6 @@ SLEEP_TIME = 5
 # Résumé d’édition
 EDIT_SUMMARY =  "Removal of non-existent categories"
 
-# User-Agent personnalisé
-USER_AGENT = "BotJanus"
-
 # ==============================
 # 🚀  DÉBUT DU SCRIPT
 # ==============================
@@ -39,8 +36,6 @@ site = pywikibot.Site(LANG, FAMILY)
 site.login()
 
 # Application du user-agent
-pywikibot.config.user_agent = USER_AGENT
-
 print(f"Connecté à {LANG}.{FAMILY}.org en tant que {site.user()} ✅")
 print(f"Traitement de {N_PAGES} pages aléatoires...\n")
 
